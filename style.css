@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+h3{
+    font-weight: 600;
+}
+p{
+    color: dimgrey;
+}
+#header{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+#header span{
+    color: orange;
+}
+.button-link, .hire-me{
+    padding: 10px 40px;
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
+    border-radius: 5%;
+    text-transform: uppercase;
+
+}
+
+
+
+#middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+
+/*EXP area*/
+#experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experience div{
+    box-shadow: 5px 7px 40px grey;
+    height: 80%;
+}
+#experience h1{
+    font-size: 37px;;
+}
+
+#experience .full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+        180deg
+        , lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#experience .baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(
+        180deg
+        , blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
